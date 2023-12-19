@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+/* Additional styles for the body or container of your products */
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center the product cards horizontally */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  background-color: #e3e3e3;
+}
+
+.product-card {
+  position: relative;
+  border: 3px solid #ccc;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff; /* Add a background color for the product card */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.image-0024 {
+  position: absolute;
+  margin-left: 7px;
+  margin-top: 7px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.addtoboximage {
+  cursor: pointer;
+  margin: -5px 0 12px 0;
+  width: 100%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  height: 15px;
+  object-fit: contain;
+}
+
+.addtoboximage:hover {
+  transform: scale(1.2);
+}
